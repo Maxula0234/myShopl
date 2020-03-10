@@ -11,8 +11,8 @@ namespace myShopl
             string connStr = "server=localhost;user=root;database=shop;password=root;";
             Console.WriteLine(Function.CountItem("laptop", connStr));
             Console.ReadLine();
-            // Function.AddLaptops();
-            // Function.AddTv();
+            Function.AddLaptops();
+            Function.AddTv();
         }
         
         
