@@ -156,9 +156,6 @@ namespace myShopl
                         break;
                 }
             }
-
-            // return null;
-
         }
         
         public static string CountItem(string typeItem, string connStr) {
