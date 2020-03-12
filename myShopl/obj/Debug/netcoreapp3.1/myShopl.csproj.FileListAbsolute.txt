@@ -27,3 +27,10 @@
 /Users/maksimhorovinkin/RiderProjects/myShopl/myShopl/obj/Debug/netcoreapp3.1/myShopl.csproj.CopyComplete
 /Users/maksimhorovinkin/RiderProjects/myShopl/myShopl/obj/Debug/netcoreapp3.1/myShopl.dll
 /Users/maksimhorovinkin/RiderProjects/myShopl/myShopl/obj/Debug/netcoreapp3.1/myShopl.pdb
+/Users/maksimhorovinkin/RiderProjects/myShopl/myShopl/bin/Debug/netcoreapp3.1/Carbon.Data.Protection.dll
+/Users/maksimhorovinkin/RiderProjects/myShopl/myShopl/bin/Debug/netcoreapp3.1/Carbon.Packaging.dll
+/Users/maksimhorovinkin/RiderProjects/myShopl/myShopl/bin/Debug/netcoreapp3.1/Carbon.Storage.dll
+/Users/maksimhorovinkin/RiderProjects/myShopl/myShopl/bin/Debug/netcoreapp3.1/Carbon.VersionControl.dll
+/Users/maksimhorovinkin/RiderProjects/myShopl/myShopl/bin/Debug/netcoreapp3.1/Carbon.Versioning.dll
+/Users/maksimhorovinkin/RiderProjects/myShopl/myShopl/bin/Debug/netcoreapp3.1/GitHub.dll
+/Users/maksimhorovinkin/RiderProjects/myShopl/myShopl/bin/Debug/netcoreapp3.1/System.Text.Json.dll

@@ -1,6 +1,7 @@
 using System;
 using myShopl.shop;
 using MySql.Data.MySqlClient;
+using MySqlX.XDevAPI.CRUD;
 
 namespace myShopl
 {
@@ -169,5 +170,18 @@ namespace myShopl
             string countStringTable = $"Кол-во объектов [{typeItem}]: " + count.ExecuteScalar().ToString();
             return countStringTable;
         }
+
+        public static string Remove (string typeItem, int id,string connStr)
+        {
+            MySqlConnection connection = new MySqlConnection(connStr);
+            connection.Open();
+            string queryDel = $"DELETE FROM shop.{typeItem} WHERE (Id = '{id}')";
+            MySqlCommand count = new MySqlCommand(queryDel,connection);
+            count.ExecuteNonQuery();
+            string delStringTable = $"Удалили строчку #{id}";
+            connection.Close();
+            return delStringTable;
+        }
+        
     }
 }

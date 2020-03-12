@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "myShopl/1.0.0": {
         "dependencies": {
+          "GitHub": "1.20.1",
           "MySql.Data": "8.0.19"
         },
         "runtime": {
@@ -24,6 +25,68 @@
           "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
             "assemblyVersion": "1.8.2.0",
             "fileVersion": "1.8.18099.1"
+          }
+        }
+      },
+      "Carbon.Data.Protection/1.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/Carbon.Data.Protection.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Carbon.Packaging/1.37.1": {
+        "dependencies": {
+          "Carbon.Data.Protection": "1.0.0",
+          "Carbon.Storage": "2.0.0",
+          "Carbon.Versioning": "1.6.0",
+          "System.Text.Json": "4.7.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Carbon.Packaging.dll": {
+            "assemblyVersion": "1.37.1.0",
+            "fileVersion": "1.37.1.0"
+          }
+        }
+      },
+      "Carbon.Storage/2.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/Carbon.Storage.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Carbon.VersionControl/2.0.0": {
+        "dependencies": {
+          "Carbon.Storage": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Carbon.VersionControl.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Carbon.Versioning/1.6.0": {
+        "runtime": {
+          "lib/netstandard2.0/Carbon.Versioning.dll": {
+            "assemblyVersion": "1.6.0.0",
+            "fileVersion": "1.6.0.0"
+          }
+        }
+      },
+      "GitHub/1.20.1": {
+        "dependencies": {
+          "Carbon.Packaging": "1.37.1",
+          "Carbon.VersionControl": "2.0.0",
+          "System.Text.Json": "4.7.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/GitHub.dll": {
+            "assemblyVersion": "1.20.1.0",
+            "fileVersion": "1.20.1.0"
           }
         }
       },
@@ -867,6 +930,14 @@
           "System.Text.Encoding": "4.3.0"
         }
       },
+      "System.Text.Json/4.7.1": {
+        "runtime": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {
+            "assemblyVersion": "4.0.1.1",
+            "fileVersion": "4.700.20.6702"
+          }
+        }
+      },
       "System.Text.RegularExpressions/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
@@ -1025,6 +1096,48 @@
       "sha512": "sha512-jAy3uHN1U9DpoT/TgLqDTEhlccn/4doOVxhSmmNsnoSsGfHT9Lwr634ac9D0YFujAhNw61nWF4UIpHyzv0aQww==",
       "path": "bouncycastle.netcore/1.8.3",
       "hashPath": "bouncycastle.netcore.1.8.3.nupkg.sha512"
+    },
+    "Carbon.Data.Protection/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z4CKdYZYIb1naN2PHQDJUnJU4ZG73XRNsrf0oaAaa07usDbelhNX/Dfu3XI2BCTtw2MzvRVWwLh/M43b+y5FlQ==",
+      "path": "carbon.data.protection/1.0.0",
+      "hashPath": "carbon.data.protection.1.0.0.nupkg.sha512"
+    },
+    "Carbon.Packaging/1.37.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Nj7TRNPwwBCfmDTfVkK/XAGy6kHyvY9cQ94IM8llXAvbq8M1yTsEtLJ6o2MztTNyrbfi9kQGCnQdLXpSOcIDug==",
+      "path": "carbon.packaging/1.37.1",
+      "hashPath": "carbon.packaging.1.37.1.nupkg.sha512"
+    },
+    "Carbon.Storage/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fClR+4VNmfEOzwQLfpqeAtq54fyWX8UuXa5LHfRzj0F7lfHfY7MwcG3DHV1mXfmb/gnj+2QCS01zxWVB0HZ95A==",
+      "path": "carbon.storage/2.0.0",
+      "hashPath": "carbon.storage.2.0.0.nupkg.sha512"
+    },
+    "Carbon.VersionControl/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Kazm2aIQZay3MAybpjaeriA3nGBy6rZn4d7tHY8NKo13dt/arle0YkTMtIsf2CiJfW9qTCnfr9qr2pUvYvMszQ==",
+      "path": "carbon.versioncontrol/2.0.0",
+      "hashPath": "carbon.versioncontrol.2.0.0.nupkg.sha512"
+    },
+    "Carbon.Versioning/1.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z2uAaOPrxWyYCDbK/dJWGqpR7ZMX6BO9uF7pML2NrBqk3r17/fUQjV8NMYh5ATYDCBk94DH3IQr0w53/OCQZwQ==",
+      "path": "carbon.versioning/1.6.0",
+      "hashPath": "carbon.versioning.1.6.0.nupkg.sha512"
+    },
+    "GitHub/1.20.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+95E80vGzz/9tNOuX1HK2OOTvBG9Hn8vjhKfsm0Hv7n3cQhPwyp5/4Uy4zdfwNHi1TRPJvXtI9sP7tCoruqjZg==",
+      "path": "github/1.20.1",
+      "hashPath": "github.1.20.1.nupkg.sha512"
     },
     "Google.Protobuf/3.6.1": {
       "type": "package",
@@ -1599,6 +1712,13 @@
       "sha512": "sha512-YVMK0Bt/A43RmwizJoZ22ei2nmrhobgeiYwFzC4YAN+nue8RF6djXDMog0UCn+brerQoYVyaS+ghy9P/MUVcmw==",
       "path": "system.text.encoding.extensions/4.3.0",
       "hashPath": "system.text.encoding.extensions.4.3.0.nupkg.sha512"
+    },
+    "System.Text.Json/4.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XwzMbct3iNepJaFylN1+l8weWlFburEzXidqleSsLvSXdHSIJHEKtRVKHPlpWcFmJX6k3goPFfVgUfp40RR+bg==",
+      "path": "system.text.json/4.7.1",
+      "hashPath": "system.text.json.4.7.1.nupkg.sha512"
     },
     "System.Text.RegularExpressions/4.3.0": {
       "type": "package",
