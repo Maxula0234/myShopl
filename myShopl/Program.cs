@@ -9,7 +9,7 @@ namespace myShopl
         static void Main(string[] args)
         {
             string connStr = "server=localhost;user=root;database=shop;password=root;";
-            Console.WriteLine(Function.CountItem("laptop", connStr));
+            Console.WriteLine(Function.Remove("laptop",6, connStr));
             Console.ReadLine();
             // Function.AddLaptops();
             // Function.AddTv();
